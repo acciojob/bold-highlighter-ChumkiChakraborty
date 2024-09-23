@@ -13,8 +13,3 @@ function return_normal() {
         word.style.color = 'black';
     });
 }
-
-// Add event listeners to the link for mouseover and mouseout events
-const highlightLink = document.getElementById('highlightLink');
-highlightLink.addEventListener('mouseover', highlight);
-highlightLink.addEventListener('mouseout', return_normal);
